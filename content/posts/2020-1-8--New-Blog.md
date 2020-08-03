@@ -2,7 +2,7 @@
 title: New Blog
 template: "post"
 date: "2020-8-2"
-draft: false
+draft: true
 slug: "new-blog"
 category: "Typography"
 tags:
