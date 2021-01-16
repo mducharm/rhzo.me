@@ -3,7 +3,7 @@ title: "C# Expression Trees & Web Assembly"
 template: "post"
 date: "2021-01-16"
 draft: false
-slug: "2020-plans"
+slug: "csharp-and-wasm"
 category: ""
 tags:
   - "C#"
