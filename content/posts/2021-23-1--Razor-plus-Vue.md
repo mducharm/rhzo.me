@@ -237,4 +237,4 @@ I've illustrated below what it might look like to use Razor partials for your Vu
 
 With this approach, you can organize your components as you would a single-file component while still retaining the ability to inject data server-side - all without having to transpile your Javascript.
 
-For the full code example, you can find my repo [here](https://github.com/mducharm/RazorPagesWithVue). 
+For the full code example, you can find the repo [here](https://github.com/mducharm/RazorPagesWithVue) and can see what it looks [via GitHub Pages](https://mducharm.github.io/RazorPagesWithVue/wwwroot/example.html).
