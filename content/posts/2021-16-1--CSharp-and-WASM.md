@@ -4,7 +4,7 @@ template: "post"
 date: "2021-01-16"
 draft: false
 slug: "csharp-and-wasm"
-category: ""
+category: "Web Assembly"
 tags:
   - "C#"
   - "Web Assembly"
