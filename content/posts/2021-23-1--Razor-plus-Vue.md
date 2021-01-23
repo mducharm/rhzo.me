@@ -3,7 +3,7 @@ title: "Making Vue + Razor Pages Easy & Fun"
 template: "post"
 date: "2021-01-23"
 draft: false
-slug: "razor-plus-vue"
+slug: "making-vue-plus-razor-easy-and-fun"
 category: "C#"
 tags:
   - "C#"
