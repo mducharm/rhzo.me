@@ -1,18 +1,18 @@
 ---
-title: "Making Vue + Razor Pages Easy & Fun"
+title: "No Transpiler? No problem: Integrating Vue with ASP.Net Razor Pages"
 template: "post"
 date: "2021-01-23"
 draft: false
-slug: "making-vue-plus-razor-easy-and-fun"
+slug: "no-transpiler-no-problem"
 category: "C#"
 tags:
   - "C#"
   - "Razor"
   - "Vue"
-description: "Using Razor partials and Vue's template property to simulate single-file components without transpilation"
+description: "Using Razor partials and Vue's template property to simulate single-file components without a build step"
 ---
 
-When building a fresh project using the Vue CLI, Vue's [single-file components](https://vuejs.org/v2/guide/single-file-components.html) bring a lot of joy to the development process. Composing your UI with .vue files feels something like putting Lego blocks together, reducing the cognitive load required by the developer while making it fun to build apps piece by piece. 
+When building a fresh project using the Vue CLI, Vue's [single-file components](https://vuejs.org/v2/guide/single-file-components.html) bring a lot of joy to the development process. Composing your UI with .vue files feels like putting Lego blocks together, reducing cognitive load while making it fun to build apps piece by piece. 
 
 But for .Net developers maintaining existing MVC sites, starting a fresh [SPA](https://en.wikipedia.org/wiki/Single-page_application) is a luxury afforded to those working on greenfield projects. Clients and customers are often heavily invested in the current structure of a site, and uprooting your entire app's architecture can be time-consuming and error-prone. 
 
@@ -235,6 +235,6 @@ I've illustrated below what it might look like to use Razor partials for your Vu
 </style>
 ```
 
-With this approach, you can organize your components as you would a single-file component while still retaining the ability to inject data server-side - all without having to transpile your Javascript.
+With this approach, you can organize your components as you would a single-file component, while still retaining the ability to inject data server-side - all without having to transpile your Javascript.
 
 For the full code example, you can find the repo [here](https://github.com/mducharm/RazorPagesWithVue) and can see what it looks [via GitHub Pages](https://mducharm.github.io/RazorPagesWithVue/wwwroot/example.html).
